@@ -2,6 +2,9 @@
 	!.gitignore
 	!Eugenia_ArcadeTongame
 	!Eugenia_ArcadeTongame.diagram
+	!Eugenia_ArcadeTongame.edit
+	!Eugenia_ArcadeTongame.editor
+	!Eugenia_ArcadeTongame.tests
 	!AcceleoM2T_ArcadeTongame
 	!Prueba-Juego-Generado
 	*.class
