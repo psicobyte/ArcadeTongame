@@ -32,6 +32,13 @@
         <ownedChild>
           <domainMetaElement
               href="ArcadeTongame_editor.ecore#//Wall"/>
+          <labelMappings
+              xsi:type="gmfmap:FeatureLabelMapping">
+            <diagramLabel
+                href="ArcadeTongame_editor.gmfgraph#WallLabel"/>
+            <features
+                href="ArcadeTongame_editor.ecore#//Element/name"/>
+          </labelMappings>
           <tool
               xsi:type="gmftool:CreationTool"
               href="ArcadeTongame_editor.gmftool#//@palette/@tools.0/@tools.5"/>
@@ -88,6 +95,13 @@
         <ownedChild>
           <domainMetaElement
               href="ArcadeTongame_editor.ecore#//In"/>
+          <labelMappings
+              xsi:type="gmfmap:FeatureLabelMapping">
+            <diagramLabel
+                href="ArcadeTongame_editor.gmfgraph#InLabel"/>
+            <features
+                href="ArcadeTongame_editor.ecore#//Element/name"/>
+          </labelMappings>
           <tool
               xsi:type="gmftool:CreationTool"
               href="ArcadeTongame_editor.gmftool#//@palette/@tools.0/@tools.0"/>
@@ -102,6 +116,13 @@
         <ownedChild>
           <domainMetaElement
               href="ArcadeTongame_editor.ecore#//Out"/>
+          <labelMappings
+              xsi:type="gmfmap:FeatureLabelMapping">
+            <diagramLabel
+                href="ArcadeTongame_editor.gmfgraph#OutLabel"/>
+            <features
+                href="ArcadeTongame_editor.ecore#//Element/name"/>
+          </labelMappings>
           <tool
               xsi:type="gmftool:CreationTool"
               href="ArcadeTongame_editor.gmftool#//@palette/@tools.0/@tools.1"/>

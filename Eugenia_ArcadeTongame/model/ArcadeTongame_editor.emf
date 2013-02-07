@@ -1,5 +1,5 @@
 @gmf(foo="bar")
-@namespace(uri="http://wikis.uca.es/wikiPLII/index.php/Videojuegos_Educativos_DSL", prefix="ArcadeTongame_editor")
+@namespace(uri="http://chelder86.github.com/ArcadeTongame/", prefix="ArcadeTongame_editor")
 package ArcadeTongame_editor;
 
 @gmf.diagram(foo="bar")
@@ -10,7 +10,7 @@ class Game {
   attr float width;
 }
 
-@gmf.node(label="name", size="250,200", tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/Stage24x24.ico")
+@gmf.node(label="name", size="100,100", tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/Stage32.ico")
 class Stage {
 
   @gmf.compartment(foo="bar")
@@ -18,7 +18,7 @@ class Stage {
   attr String name;
 }
 
-@gmf.link(source="source", target="target", style="dot", width="6", tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/Opens32.ico")
+@gmf.link(source="source", target="target", style="dot", width="6", tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/StagesConnection32.ico")
 class StagesConnection {
   ref Out source;
   ref In target;
@@ -36,11 +36,10 @@ abstract class Element {
 abstract class Opener extends Element {
   attr boolean isOpener;
 
-  @gmf.link(target.decoration="arrow", style="solid", width="4", tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/opens24x24.ico")
+  @gmf.link(target.decoration="arrow", style="solid", width="4", tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/Opens32.ico")
   ref Out opens;
 }
-
-@gmf.node(tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/Wall24x24.ico", label.icon="false", label.placement="none")
+@gmf.node(figure="figures.Wall", label.icon="false", label="name", label.placement="external", tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/Wall32.ico")
 class Wall extends Opener {
 }
 
@@ -49,17 +48,17 @@ class Sound extends Opener {
   attr String filename;
 }
 
-@gmf.node(figure="figures.Text", label.icon="false", label="name", label.placement="external", tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/Sound32.ico")
+@gmf.node(figure="figures.Text", label.icon="false", label="name", label.placement="external", tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/Text32.ico")
 class Text extends Opener {
   attr String text;
 }
 
-@gmf.node(tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/In24x24.ico", label.icon="false", label.placement="none")
+@gmf.node(figure="figures.In", label.icon="false", label="name", label.placement="external", tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/In32.ico")
 class In extends Element {
   attr boolean isStart;
 }
 
-@gmf.node(border.color="184,46,50", border.width="30", tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/Out24x24.ico", label.icon="false", label.placement="none")
+@gmf.node(figure="figures.Out", label.icon="false", label="name", label.placement="external", tool.small.bundle="Eugenia_ArcadeTongame", tool.small.path="icons/Out32.ico")
 class Out extends Element {
   attr boolean isOpen;
 }

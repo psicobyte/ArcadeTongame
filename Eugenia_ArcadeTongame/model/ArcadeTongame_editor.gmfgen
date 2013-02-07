@@ -35,9 +35,8 @@
           xsi:type="gmfgen:MetamodelType"
           editHelperClassName="WallEditHelper"/>
       <viewmap
-          xsi:type="gmfgen:InnerClassViewmap"
-          className="WallFigure"
-          classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class WallFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public WallFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+          xsi:type="gmfgen:FigureViewmap"
+          figureQualifiedClassName="figures.Wall"/>
       <modelFacet>
         <metaClass
             href="ArcadeTongame_editor.genmodel#//ArcadeTongame_editor/Wall"/>
@@ -46,6 +45,24 @@
         <childMetaFeature
             href="ArcadeTongame_editor.genmodel#//ArcadeTongame_editor/Stage/elements"/>
       </modelFacet>
+      <labels
+          xsi:type="gmfgen:GenExternalNodeLabel"
+          visualID="5001"
+          editPartClassName="WallNameEditPart"
+          itemSemanticEditPolicyClassName="WallNameItemSemanticEditPolicy">
+        <diagramRunTimeClass
+            href="../../../plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+        <viewmap
+            xsi:type="gmfgen:InnerClassViewmap"
+            className="WallLabelFigure"
+            classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class WallLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public WallLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Wall&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+        <modelFacet
+            xsi:type="gmfgen:FeatureLabelModelFacet"
+            parser="//@labelParsers/@implementations.0">
+          <metaFeatures
+              href="ArcadeTongame_editor.genmodel#//ArcadeTongame_editor/Element/name"/>
+        </modelFacet>
+      </labels>
     </childNodes>
     <childNodes
         visualID="3002"
@@ -73,7 +90,7 @@
       </modelFacet>
       <labels
           xsi:type="gmfgen:GenExternalNodeLabel"
-          visualID="5001"
+          visualID="5002"
           editPartClassName="SoundNameEditPart"
           itemSemanticEditPolicyClassName="SoundNameItemSemanticEditPolicy">
         <diagramRunTimeClass
@@ -116,7 +133,7 @@
       </modelFacet>
       <labels
           xsi:type="gmfgen:GenExternalNodeLabel"
-          visualID="5002"
+          visualID="5003"
           editPartClassName="TextNameEditPart"
           itemSemanticEditPolicyClassName="TextNameItemSemanticEditPolicy">
         <diagramRunTimeClass
@@ -147,9 +164,8 @@
           xsi:type="gmfgen:MetamodelType"
           editHelperClassName="InEditHelper"/>
       <viewmap
-          xsi:type="gmfgen:InnerClassViewmap"
-          className="InFigure"
-          classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class InFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public InFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+          xsi:type="gmfgen:FigureViewmap"
+          figureQualifiedClassName="figures.In"/>
       <modelFacet>
         <metaClass
             href="ArcadeTongame_editor.genmodel#//ArcadeTongame_editor/In"/>
@@ -158,6 +174,24 @@
         <childMetaFeature
             href="ArcadeTongame_editor.genmodel#//ArcadeTongame_editor/Stage/elements"/>
       </modelFacet>
+      <labels
+          xsi:type="gmfgen:GenExternalNodeLabel"
+          visualID="5004"
+          editPartClassName="InNameEditPart"
+          itemSemanticEditPolicyClassName="InNameItemSemanticEditPolicy">
+        <diagramRunTimeClass
+            href="../../../plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+        <viewmap
+            xsi:type="gmfgen:InnerClassViewmap"
+            className="InLabelFigure"
+            classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class InLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public InLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;In&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+        <modelFacet
+            xsi:type="gmfgen:FeatureLabelModelFacet"
+            parser="//@labelParsers/@implementations.0">
+          <metaFeatures
+              href="ArcadeTongame_editor.genmodel#//ArcadeTongame_editor/Element/name"/>
+        </modelFacet>
+      </labels>
     </childNodes>
     <childNodes
         visualID="3005"
@@ -173,13 +207,8 @@
           xsi:type="gmfgen:MetamodelType"
           editHelperClassName="OutEditHelper"/>
       <viewmap
-          xsi:type="gmfgen:InnerClassViewmap"
-          className="OutFigure"
-          classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class OutFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public OutFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;this.setLineWidth(30);&#xA;&#x9;this.setForegroundColor(THIS_FORE&#xA;);&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;/**&#xA; * @generated&#xA; */&#xA;static final org.eclipse.swt.graphics.Color THIS_FORE = new org.eclipse.swt.graphics.Color(null, 184, 46, 50);&#xA;&#xA;">
-        <attributes
-            xsi:type="gmfgen:StyleAttributes"
-            fixedForeground="true"/>
-      </viewmap>
+          xsi:type="gmfgen:FigureViewmap"
+          figureQualifiedClassName="figures.Out"/>
       <modelFacet>
         <metaClass
             href="ArcadeTongame_editor.genmodel#//ArcadeTongame_editor/Out"/>
@@ -188,6 +217,24 @@
         <childMetaFeature
             href="ArcadeTongame_editor.genmodel#//ArcadeTongame_editor/Stage/elements"/>
       </modelFacet>
+      <labels
+          xsi:type="gmfgen:GenExternalNodeLabel"
+          visualID="5005"
+          editPartClassName="OutNameEditPart"
+          itemSemanticEditPolicyClassName="OutNameItemSemanticEditPolicy">
+        <diagramRunTimeClass
+            href="../../../plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+        <viewmap
+            xsi:type="gmfgen:InnerClassViewmap"
+            className="OutLabelFigure"
+            classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class OutLabelFigure extends org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel {&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public OutLabelFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setText(&quot;Out&quot;);&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+        <modelFacet
+            xsi:type="gmfgen:FeatureLabelModelFacet"
+            parser="//@labelParsers/@implementations.0">
+          <metaFeatures
+              href="ArcadeTongame_editor.genmodel#//ArcadeTongame_editor/Element/name"/>
+        </modelFacet>
+      </labels>
     </childNodes>
     <topLevelNodes
         visualID="2001"
@@ -205,11 +252,11 @@
       <viewmap
           xsi:type="gmfgen:InnerClassViewmap"
           className="StageFigure"
-          classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class StageFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel fFigureStageLabelFigure; &#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RectangleFigure fStageElementsCompartmentFigure; &#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public StageFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(250)&#xA;, getMapMode().DPtoLP(200)&#xA;));&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;&#x9;createContents();&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private void createContents(){&#xA;&#xA;&#xA;fFigureStageLabelFigure = new org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel();&#xA;&#xA;fFigureStageLabelFigure.setText(&quot;Stage&quot;);&#xA;fFigureStageLabelFigure.setMaximumSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(10000)&#xA;, getMapMode().DPtoLP(50)&#xA;));&#xA;&#xA;this.add(fFigureStageLabelFigure);&#xA;&#xA;&#xA;&#xA;fStageElementsCompartmentFigure = new org.eclipse.draw2d.RectangleFigure();&#xA;&#xA;fStageElementsCompartmentFigure.setOutline(false);&#xA;&#xA;this.add(fStageElementsCompartmentFigure);&#xA;&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel getFigureStageLabelFigure() {&#xA;&#x9;&#x9;return fFigureStageLabelFigure;&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.draw2d.RectangleFigure getStageElementsCompartmentFigure() {&#xA;&#x9;&#x9;return fStageElementsCompartmentFigure;&#xA;&#x9;}&#xA;&#xA;&#xA;}&#xA;&#xA;">
+          classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class StageFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel fFigureStageLabelFigure; &#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RectangleFigure fStageElementsCompartmentFigure; &#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public StageFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;this.setPreferredSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(100)&#xA;, getMapMode().DPtoLP(100)&#xA;));&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;&#x9;createContents();&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private void createContents(){&#xA;&#xA;&#xA;fFigureStageLabelFigure = new org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel();&#xA;&#xA;fFigureStageLabelFigure.setText(&quot;Stage&quot;);&#xA;fFigureStageLabelFigure.setMaximumSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(10000)&#xA;, getMapMode().DPtoLP(50)&#xA;));&#xA;&#xA;this.add(fFigureStageLabelFigure);&#xA;&#xA;&#xA;&#xA;fStageElementsCompartmentFigure = new org.eclipse.draw2d.RectangleFigure();&#xA;&#xA;fStageElementsCompartmentFigure.setOutline(false);&#xA;&#xA;this.add(fStageElementsCompartmentFigure);&#xA;&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel getFigureStageLabelFigure() {&#xA;&#x9;&#x9;return fFigureStageLabelFigure;&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.draw2d.RectangleFigure getStageElementsCompartmentFigure() {&#xA;&#x9;&#x9;return fStageElementsCompartmentFigure;&#xA;&#x9;}&#xA;&#xA;&#xA;}&#xA;&#xA;">
         <attributes
             xsi:type="gmfgen:DefaultSizeAttributes"
-            width="250"
-            height="200"/>
+            width="100"
+            height="100"/>
       </viewmap>
       <behaviour
           xsi:type="gmfgen:OpenDiagramBehaviour"/>
@@ -222,7 +269,7 @@
             href="ArcadeTongame_editor.genmodel#//ArcadeTongame_editor/Game/stages"/>
       </modelFacet>
       <labels
-          visualID="5003"
+          visualID="5006"
           editPartClassName="StageNameEditPart"
           itemSemanticEditPolicyClassName="StageNameItemSemanticEditPolicy"
           elementIcon="true">
@@ -331,13 +378,13 @@
             xsi:type="gmfgen:ToolEntry"
             title="In"
             description="Create new In"
-            smallIconPath="/Eugenia_ArcadeTongame/icons/In24x24.ico"
+            smallIconPath="/Eugenia_ArcadeTongame/icons/In32.ico"
             genNodes="//@diagram/@childNodes.3"/>
         <entries
             xsi:type="gmfgen:ToolEntry"
             title="Out"
             description="Create new Out"
-            smallIconPath="/Eugenia_ArcadeTongame/icons/Out24x24.ico"
+            smallIconPath="/Eugenia_ArcadeTongame/icons/Out32.ico"
             genNodes="//@diagram/@childNodes.4"/>
         <entries
             xsi:type="gmfgen:ToolEntry"
@@ -349,19 +396,19 @@
             xsi:type="gmfgen:ToolEntry"
             title="Stage"
             description="Create new Stage"
-            smallIconPath="/Eugenia_ArcadeTongame/icons/Stage24x24.ico"
+            smallIconPath="/Eugenia_ArcadeTongame/icons/Stage32.ico"
             genNodes="//@diagram/@topLevelNodes.0"/>
         <entries
             xsi:type="gmfgen:ToolEntry"
             title="Text"
             description="Create new Text"
-            smallIconPath="/Eugenia_ArcadeTongame/icons/Sound32.ico"
+            smallIconPath="/Eugenia_ArcadeTongame/icons/Text32.ico"
             genNodes="//@diagram/@childNodes.2"/>
         <entries
             xsi:type="gmfgen:ToolEntry"
             title="Wall"
             description="Create new Wall"
-            smallIconPath="/Eugenia_ArcadeTongame/icons/Wall24x24.ico"
+            smallIconPath="/Eugenia_ArcadeTongame/icons/Wall32.ico"
             genNodes="//@diagram/@childNodes.0"/>
       </groups>
       <groups
@@ -371,13 +418,13 @@
             xsi:type="gmfgen:ToolEntry"
             title="Opens"
             description="Create new Opens"
-            smallIconPath="/Eugenia_ArcadeTongame/icons/opens24x24.ico"
+            smallIconPath="/Eugenia_ArcadeTongame/icons/Opens32.ico"
             genLinks="//@diagram/@links.1"/>
         <entries
             xsi:type="gmfgen:ToolEntry"
             title="StagesConnection"
             description="Create new StagesConnection"
-            smallIconPath="/Eugenia_ArcadeTongame/icons/Opens32.ico"
+            smallIconPath="/Eugenia_ArcadeTongame/icons/StagesConnection32.ico"
             genLinks="//@diagram/@links.0"/>
       </groups>
     </palette>
@@ -668,7 +715,7 @@
       extensibleViaService="true">
     <implementations
         xsi:type="gmfgen:PredefinedParser"
-        uses="//@diagram/@childNodes.1/@labels.0/@modelFacet //@diagram/@childNodes.2/@labels.0/@modelFacet //@diagram/@topLevelNodes.0/@labels.0/@modelFacet"/>
+        uses="//@diagram/@childNodes.0/@labels.0/@modelFacet //@diagram/@childNodes.1/@labels.0/@modelFacet //@diagram/@childNodes.2/@labels.0/@modelFacet //@diagram/@childNodes.3/@labels.0/@modelFacet //@diagram/@childNodes.4/@labels.0/@modelFacet //@diagram/@topLevelNodes.0/@labels.0/@modelFacet"/>
     <implementations
         xsi:type="gmfgen:ExternalParser"
         uses="//@diagram/@links.1/@labels.0/@modelFacet"/>
