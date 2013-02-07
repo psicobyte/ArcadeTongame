@@ -98,7 +98,7 @@ public class ArcadeTongame_editorPaletteFactory {
 						.singletonList(ArcadeTongame_editor.diagram.providers.ArcadeTongame_editorElementTypes.Sound_3002));
 		entry.setId("createSound3CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(ArcadeTongame_editor.diagram.part.ArcadeTongame_editorDiagramEditorPlugin
-				.findImageDescriptor("/Eugenia_ArcadeTongame/icons/Sound24x24.ico")); //$NON-NLS-1$
+				.findImageDescriptor("/Eugenia_ArcadeTongame/icons/Sound32.ico")); //$NON-NLS-1$
 		entry.setLargeIcon(entry.getSmallIcon());
 		return entry;
 	}
@@ -130,7 +130,7 @@ public class ArcadeTongame_editorPaletteFactory {
 						.singletonList(ArcadeTongame_editor.diagram.providers.ArcadeTongame_editorElementTypes.Text_3003));
 		entry.setId("createText5CreationTool"); //$NON-NLS-1$
 		entry.setSmallIcon(ArcadeTongame_editor.diagram.part.ArcadeTongame_editorDiagramEditorPlugin
-				.findImageDescriptor("/Eugenia_ArcadeTongame/icons/Text24x24.ico")); //$NON-NLS-1$
+				.findImageDescriptor("/Eugenia_ArcadeTongame/icons/Sound32.ico")); //$NON-NLS-1$
 		entry.setLargeIcon(entry.getSmallIcon());
 		return entry;
 	}
@@ -177,8 +177,8 @@ public class ArcadeTongame_editorPaletteFactory {
 				Collections
 						.singletonList(ArcadeTongame_editor.diagram.providers.ArcadeTongame_editorElementTypes.StagesConnection_4001));
 		entry.setId("createStagesConnection2CreationTool"); //$NON-NLS-1$
-		entry.setSmallIcon(ArcadeTongame_editor.diagram.providers.ArcadeTongame_editorElementTypes
-				.getImageDescriptor(ArcadeTongame_editor.diagram.providers.ArcadeTongame_editorElementTypes.StagesConnection_4001));
+		entry.setSmallIcon(ArcadeTongame_editor.diagram.part.ArcadeTongame_editorDiagramEditorPlugin
+				.findImageDescriptor("/Eugenia_ArcadeTongame/icons/Opens32.ico")); //$NON-NLS-1$
 		entry.setLargeIcon(entry.getSmallIcon());
 		return entry;
 	}

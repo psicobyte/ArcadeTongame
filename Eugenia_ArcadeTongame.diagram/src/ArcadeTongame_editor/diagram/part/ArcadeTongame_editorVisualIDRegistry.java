@@ -186,6 +186,16 @@ public class ArcadeTongame_editorVisualIDRegistry {
 				return true;
 			}
 			break;
+		case ArcadeTongame_editor.diagram.edit.parts.SoundEditPart.VISUAL_ID:
+			if (ArcadeTongame_editor.diagram.edit.parts.SoundNameEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
+		case ArcadeTongame_editor.diagram.edit.parts.TextEditPart.VISUAL_ID:
+			if (ArcadeTongame_editor.diagram.edit.parts.TextNameEditPart.VISUAL_ID == nodeVisualID) {
+				return true;
+			}
+			break;
 		case ArcadeTongame_editor.diagram.edit.parts.StageStageElementsCompartmentEditPart.VISUAL_ID:
 			if (ArcadeTongame_editor.diagram.edit.parts.WallEditPart.VISUAL_ID == nodeVisualID) {
 				return true;

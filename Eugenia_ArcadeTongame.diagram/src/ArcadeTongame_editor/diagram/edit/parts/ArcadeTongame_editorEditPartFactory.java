@@ -41,8 +41,16 @@ public class ArcadeTongame_editorEditPartFactory implements EditPartFactory {
 				return new ArcadeTongame_editor.diagram.edit.parts.SoundEditPart(
 						view);
 
+			case ArcadeTongame_editor.diagram.edit.parts.SoundNameEditPart.VISUAL_ID:
+				return new ArcadeTongame_editor.diagram.edit.parts.SoundNameEditPart(
+						view);
+
 			case ArcadeTongame_editor.diagram.edit.parts.TextEditPart.VISUAL_ID:
 				return new ArcadeTongame_editor.diagram.edit.parts.TextEditPart(
+						view);
+
+			case ArcadeTongame_editor.diagram.edit.parts.TextNameEditPart.VISUAL_ID:
+				return new ArcadeTongame_editor.diagram.edit.parts.TextNameEditPart(
 						view);
 
 			case ArcadeTongame_editor.diagram.edit.parts.InEditPart.VISUAL_ID:

@@ -94,5 +94,53 @@
             contributorClass="ArcadeTongame_editor.presentation.ArcadeTongame_editorActionBarContributor">
       </editor>
    </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="Eugenia_ArcadeTongame.diagram.ArcadeTongame_editorApplication"
+            name="tongam">
+         <property
+               name="appName"
+               value="tongam">
+         </property>
+      </product>
+   </extension>
+   <extension
+         id="product1"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="Eugenia_ArcadeTongame.diagram.ArcadeTongame_editorApplication"
+            name="asdfd">
+         <property
+               name="appName"
+               value="asdfd">
+         </property>
+      </product>
+   </extension>
+   <extension
+         id="product2"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="Eugenia_ArcadeTongame.diagram.ArcadeTongame_editorApplication"
+            name="asdfadsf">
+         <property
+               name="appName"
+               value="asdfadsf">
+         </property>
+      </product>
+   </extension>
+   <extension
+         id="product3"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="Eugenia_ArcadeTongame.diagram.ArcadeTongame_editorApplication"
+            name="asdfdasfdsf">
+         <property
+               name="appName"
+               value="asdfdasfdsf">
+         </property>
+      </product>
+   </extension>
 
 </plugin>

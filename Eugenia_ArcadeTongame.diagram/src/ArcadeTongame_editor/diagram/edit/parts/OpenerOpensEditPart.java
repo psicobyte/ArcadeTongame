@@ -66,6 +66,7 @@ public class OpenerOpensEditPart extends ConnectionNodeEditPart implements
 		 * @generated
 		 */
 		public OpenerOpensFigure() {
+			this.setLineWidth(4);
 
 			setTargetDecoration(createTargetDecoration());
 		}

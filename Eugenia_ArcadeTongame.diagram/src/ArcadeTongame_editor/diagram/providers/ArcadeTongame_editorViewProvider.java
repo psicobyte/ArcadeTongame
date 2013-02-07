@@ -308,7 +308,7 @@ public class ArcadeTongame_editorViewProvider extends AbstractProvider
 		ViewUtil.setStructuralFeatureValue(node,
 				NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5001 = createLabel(
+		Node label5003 = createLabel(
 				node,
 				ArcadeTongame_editor.diagram.part.ArcadeTongame_editorVisualIDRegistry
 						.getType(ArcadeTongame_editor.diagram.edit.parts.StageNameEditPart.VISUAL_ID));
@@ -401,6 +401,15 @@ public class ArcadeTongame_editorViewProvider extends AbstractProvider
 		ViewUtil.setStructuralFeatureValue(node,
 				NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
+		Node label5001 = createLabel(
+				node,
+				ArcadeTongame_editor.diagram.part.ArcadeTongame_editorVisualIDRegistry
+						.getType(ArcadeTongame_editor.diagram.edit.parts.SoundNameEditPart.VISUAL_ID));
+		label5001.setLayoutConstraint(NotationFactory.eINSTANCE
+				.createLocation());
+		Location location5001 = (Location) label5001.getLayoutConstraint();
+		location5001.setX(0);
+		location5001.setY(5);
 		return node;
 	}
 
@@ -443,6 +452,15 @@ public class ArcadeTongame_editorViewProvider extends AbstractProvider
 		ViewUtil.setStructuralFeatureValue(node,
 				NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
+		Node label5002 = createLabel(
+				node,
+				ArcadeTongame_editor.diagram.part.ArcadeTongame_editorVisualIDRegistry
+						.getType(ArcadeTongame_editor.diagram.edit.parts.TextNameEditPart.VISUAL_ID));
+		label5002.setLayoutConstraint(NotationFactory.eINSTANCE
+				.createLocation());
+		Location location5002 = (Location) label5002.getLayoutConstraint();
+		location5002.setX(0);
+		location5002.setY(5);
 		return node;
 	}
 

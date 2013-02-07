@@ -65,7 +65,7 @@ public class StagesConnectionEditPart extends ConnectionNodeEditPart implements
 		 * @generated
 		 */
 		public StagesConnectionFigure() {
-			this.setLineWidth(2);
+			this.setLineWidth(6);
 			this.setLineStyle(Graphics.LINE_DOT);
 
 		}
