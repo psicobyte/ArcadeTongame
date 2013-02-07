@@ -625,7 +625,7 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
 		   source, 
 		   new String[] {
 			 "label", "name",
-			 "size", "100,100",
+			 "size", "90,250",
 			 "tool.small.bundle", "Eugenia_ArcadeTongame",
 			 "tool.small.path", "icons/Stage32.ico"
 		   });				
@@ -641,8 +641,7 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
 		   new String[] {
 			 "figure", "figures.Wall",
 			 "label.icon", "false",
-			 "label", "name",
-			 "label.placement", "external",
+			 "label.placement", "none",
 			 "tool.small.bundle", "Eugenia_ArcadeTongame",
 			 "tool.small.path", "icons/Wall32.ico"
 		   });		
@@ -652,8 +651,7 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
 		   new String[] {
 			 "figure", "figures.Sound",
 			 "label.icon", "false",
-			 "label", "name",
-			 "label.placement", "external",
+			 "label.placement", "none",
 			 "tool.small.bundle", "Eugenia_ArcadeTongame",
 			 "tool.small.path", "icons/Sound32.ico"
 		   });		
@@ -663,8 +661,7 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
 		   new String[] {
 			 "figure", "figures.Text",
 			 "label.icon", "false",
-			 "label", "name",
-			 "label.placement", "external",
+			 "label.placement", "none",
 			 "tool.small.bundle", "Eugenia_ArcadeTongame",
 			 "tool.small.path", "icons/Text32.ico"
 		   });		
@@ -674,8 +671,7 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
 		   new String[] {
 			 "figure", "figures.In",
 			 "label.icon", "false",
-			 "label", "name",
-			 "label.placement", "external",
+			 "label.placement", "none",
 			 "tool.small.bundle", "Eugenia_ArcadeTongame",
 			 "tool.small.path", "icons/In32.ico"
 		   });		
@@ -685,8 +681,7 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
 		   new String[] {
 			 "figure", "figures.Out",
 			 "label.icon", "false",
-			 "label", "name",
-			 "label.placement", "external",
+			 "label.placement", "none",
 			 "tool.small.bundle", "Eugenia_ArcadeTongame",
 			 "tool.small.path", "icons/Out32.ico"
 		   });
@@ -723,7 +718,9 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
 			 "source", "source",
 			 "target", "target",
 			 "style", "dot",
-			 "width", "6",
+			 "width", "4",
+			 "color", "35,35,142",
+			 "target.decoration", "arrow",
 			 "tool.small.bundle", "Eugenia_ArcadeTongame",
 			 "tool.small.path", "icons/StagesConnection32.ico"
 		   });			
@@ -733,7 +730,8 @@ public class ArcadeTongame_editorPackageImpl extends EPackageImpl implements Arc
 		   new String[] {
 			 "target.decoration", "arrow",
 			 "style", "solid",
-			 "width", "4",
+			 "width", "3",
+			 "color", "0,100,0",
 			 "tool.small.bundle", "Eugenia_ArcadeTongame",
 			 "tool.small.path", "icons/Opens32.ico"
 		   });					

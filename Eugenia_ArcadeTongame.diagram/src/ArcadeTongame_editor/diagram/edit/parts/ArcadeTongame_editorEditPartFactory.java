@@ -37,40 +37,20 @@ public class ArcadeTongame_editorEditPartFactory implements EditPartFactory {
 				return new ArcadeTongame_editor.diagram.edit.parts.WallEditPart(
 						view);
 
-			case ArcadeTongame_editor.diagram.edit.parts.WallNameEditPart.VISUAL_ID:
-				return new ArcadeTongame_editor.diagram.edit.parts.WallNameEditPart(
-						view);
-
 			case ArcadeTongame_editor.diagram.edit.parts.SoundEditPart.VISUAL_ID:
 				return new ArcadeTongame_editor.diagram.edit.parts.SoundEditPart(
-						view);
-
-			case ArcadeTongame_editor.diagram.edit.parts.SoundNameEditPart.VISUAL_ID:
-				return new ArcadeTongame_editor.diagram.edit.parts.SoundNameEditPart(
 						view);
 
 			case ArcadeTongame_editor.diagram.edit.parts.TextEditPart.VISUAL_ID:
 				return new ArcadeTongame_editor.diagram.edit.parts.TextEditPart(
 						view);
 
-			case ArcadeTongame_editor.diagram.edit.parts.TextNameEditPart.VISUAL_ID:
-				return new ArcadeTongame_editor.diagram.edit.parts.TextNameEditPart(
-						view);
-
 			case ArcadeTongame_editor.diagram.edit.parts.InEditPart.VISUAL_ID:
 				return new ArcadeTongame_editor.diagram.edit.parts.InEditPart(
 						view);
 
-			case ArcadeTongame_editor.diagram.edit.parts.InNameEditPart.VISUAL_ID:
-				return new ArcadeTongame_editor.diagram.edit.parts.InNameEditPart(
-						view);
-
 			case ArcadeTongame_editor.diagram.edit.parts.OutEditPart.VISUAL_ID:
 				return new ArcadeTongame_editor.diagram.edit.parts.OutEditPart(
-						view);
-
-			case ArcadeTongame_editor.diagram.edit.parts.OutNameEditPart.VISUAL_ID:
-				return new ArcadeTongame_editor.diagram.edit.parts.OutNameEditPart(
 						view);
 
 			case ArcadeTongame_editor.diagram.edit.parts.StageStageElementsCompartmentEditPart.VISUAL_ID:

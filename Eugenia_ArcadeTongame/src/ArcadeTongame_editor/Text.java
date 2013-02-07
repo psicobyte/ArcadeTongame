@@ -16,7 +16,7 @@ package ArcadeTongame_editor;
  * </p>
  *
  * @see ArcadeTongame_editor.ArcadeTongame_editorPackage#getText()
- * @model annotation="gmf.node figure='figures.Text' label.icon='false' label='name' label.placement='external' tool.small.bundle='Eugenia_ArcadeTongame' tool.small.path='icons/Text32.ico'"
+ * @model annotation="gmf.node figure='figures.Text' label.icon='false' label.placement='none' tool.small.bundle='Eugenia_ArcadeTongame' tool.small.path='icons/Text32.ico'"
  * @generated
  */
 public interface Text extends Opener {

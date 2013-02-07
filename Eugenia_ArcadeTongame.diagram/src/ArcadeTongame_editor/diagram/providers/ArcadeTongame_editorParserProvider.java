@@ -22,115 +22,20 @@ public class ArcadeTongame_editorParserProvider extends AbstractProvider
 	/**
 	 * @generated
 	 */
-	private IParser stageName_5006Parser;
+	private IParser stageName_5001Parser;
 
 	/**
 	 * @generated
 	 */
-	private IParser getStageName_5006Parser() {
-		if (stageName_5006Parser == null) {
+	private IParser getStageName_5001Parser() {
+		if (stageName_5001Parser == null) {
 			EAttribute[] features = new EAttribute[] { ArcadeTongame_editor.ArcadeTongame_editorPackage.eINSTANCE
 					.getStage_Name() };
 			ArcadeTongame_editor.diagram.parsers.MessageFormatParser parser = new ArcadeTongame_editor.diagram.parsers.MessageFormatParser(
 					features);
-			stageName_5006Parser = parser;
+			stageName_5001Parser = parser;
 		}
-		return stageName_5006Parser;
-	}
-
-	/**
-	 * @generated
-	 */
-	private IParser wallName_5001Parser;
-
-	/**
-	 * @generated
-	 */
-	private IParser getWallName_5001Parser() {
-		if (wallName_5001Parser == null) {
-			EAttribute[] features = new EAttribute[] { ArcadeTongame_editor.ArcadeTongame_editorPackage.eINSTANCE
-					.getElement_Name() };
-			ArcadeTongame_editor.diagram.parsers.MessageFormatParser parser = new ArcadeTongame_editor.diagram.parsers.MessageFormatParser(
-					features);
-			wallName_5001Parser = parser;
-		}
-		return wallName_5001Parser;
-	}
-
-	/**
-	 * @generated
-	 */
-	private IParser soundName_5002Parser;
-
-	/**
-	 * @generated
-	 */
-	private IParser getSoundName_5002Parser() {
-		if (soundName_5002Parser == null) {
-			EAttribute[] features = new EAttribute[] { ArcadeTongame_editor.ArcadeTongame_editorPackage.eINSTANCE
-					.getElement_Name() };
-			ArcadeTongame_editor.diagram.parsers.MessageFormatParser parser = new ArcadeTongame_editor.diagram.parsers.MessageFormatParser(
-					features);
-			soundName_5002Parser = parser;
-		}
-		return soundName_5002Parser;
-	}
-
-	/**
-	 * @generated
-	 */
-	private IParser textName_5003Parser;
-
-	/**
-	 * @generated
-	 */
-	private IParser getTextName_5003Parser() {
-		if (textName_5003Parser == null) {
-			EAttribute[] features = new EAttribute[] { ArcadeTongame_editor.ArcadeTongame_editorPackage.eINSTANCE
-					.getElement_Name() };
-			ArcadeTongame_editor.diagram.parsers.MessageFormatParser parser = new ArcadeTongame_editor.diagram.parsers.MessageFormatParser(
-					features);
-			textName_5003Parser = parser;
-		}
-		return textName_5003Parser;
-	}
-
-	/**
-	 * @generated
-	 */
-	private IParser inName_5004Parser;
-
-	/**
-	 * @generated
-	 */
-	private IParser getInName_5004Parser() {
-		if (inName_5004Parser == null) {
-			EAttribute[] features = new EAttribute[] { ArcadeTongame_editor.ArcadeTongame_editorPackage.eINSTANCE
-					.getElement_Name() };
-			ArcadeTongame_editor.diagram.parsers.MessageFormatParser parser = new ArcadeTongame_editor.diagram.parsers.MessageFormatParser(
-					features);
-			inName_5004Parser = parser;
-		}
-		return inName_5004Parser;
-	}
-
-	/**
-	 * @generated
-	 */
-	private IParser outName_5005Parser;
-
-	/**
-	 * @generated
-	 */
-	private IParser getOutName_5005Parser() {
-		if (outName_5005Parser == null) {
-			EAttribute[] features = new EAttribute[] { ArcadeTongame_editor.ArcadeTongame_editorPackage.eINSTANCE
-					.getElement_Name() };
-			ArcadeTongame_editor.diagram.parsers.MessageFormatParser parser = new ArcadeTongame_editor.diagram.parsers.MessageFormatParser(
-					features);
-			outName_5005Parser = parser;
-		}
-		return outName_5005Parser;
+		return stageName_5001Parser;
 	}
 
 	/**
@@ -139,17 +44,7 @@ public class ArcadeTongame_editorParserProvider extends AbstractProvider
 	protected IParser getParser(int visualID) {
 		switch (visualID) {
 		case ArcadeTongame_editor.diagram.edit.parts.StageNameEditPart.VISUAL_ID:
-			return getStageName_5006Parser();
-		case ArcadeTongame_editor.diagram.edit.parts.WallNameEditPart.VISUAL_ID:
-			return getWallName_5001Parser();
-		case ArcadeTongame_editor.diagram.edit.parts.SoundNameEditPart.VISUAL_ID:
-			return getSoundName_5002Parser();
-		case ArcadeTongame_editor.diagram.edit.parts.TextNameEditPart.VISUAL_ID:
-			return getTextName_5003Parser();
-		case ArcadeTongame_editor.diagram.edit.parts.InNameEditPart.VISUAL_ID:
-			return getInName_5004Parser();
-		case ArcadeTongame_editor.diagram.edit.parts.OutNameEditPart.VISUAL_ID:
-			return getOutName_5005Parser();
+			return getStageName_5001Parser();
 		}
 		return null;
 	}

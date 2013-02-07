@@ -8,6 +8,7 @@ import org.eclipse.gmf.runtime.diagram.ui.editparts.ITreeBranchEditPart;
 import org.eclipse.gmf.runtime.diagram.ui.editpolicies.EditPolicyRoles;
 import org.eclipse.gmf.runtime.draw2d.ui.figures.PolylineConnectionEx;
 import org.eclipse.gmf.runtime.notation.View;
+import org.eclipse.swt.graphics.Color;
 
 /**
  * @generated
@@ -66,7 +67,8 @@ public class OpenerOpensEditPart extends ConnectionNodeEditPart implements
 		 * @generated
 		 */
 		public OpenerOpensFigure() {
-			this.setLineWidth(4);
+			this.setLineWidth(3);
+			this.setForegroundColor(THIS_FORE);
 
 			setTargetDecoration(createTargetDecoration());
 		}
@@ -80,5 +82,10 @@ public class OpenerOpensEditPart extends ConnectionNodeEditPart implements
 		}
 
 	}
+
+	/**
+	 * @generated
+	 */
+	static final Color THIS_FORE = new Color(null, 0, 100, 0);
 
 }

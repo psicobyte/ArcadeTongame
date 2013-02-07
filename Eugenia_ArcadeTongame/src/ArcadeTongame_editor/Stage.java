@@ -20,7 +20,7 @@ import org.eclipse.emf.ecore.EObject;
  * </p>
  *
  * @see ArcadeTongame_editor.ArcadeTongame_editorPackage#getStage()
- * @model annotation="gmf.node label='name' size='100,100' tool.small.bundle='Eugenia_ArcadeTongame' tool.small.path='icons/Stage32.ico'"
+ * @model annotation="gmf.node label='name' size='90,250' tool.small.bundle='Eugenia_ArcadeTongame' tool.small.path='icons/Stage32.ico'"
  * @generated
  */
 public interface Stage extends EObject {

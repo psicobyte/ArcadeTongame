@@ -10,7 +10,7 @@ package ArcadeTongame_editor;
  *
  *
  * @see ArcadeTongame_editor.ArcadeTongame_editorPackage#getWall()
- * @model annotation="gmf.node figure='figures.Wall' label.icon='false' label='name' label.placement='external' tool.small.bundle='Eugenia_ArcadeTongame' tool.small.path='icons/Wall32.ico'"
+ * @model annotation="gmf.node figure='figures.Wall' label.icon='false' label.placement='none' tool.small.bundle='Eugenia_ArcadeTongame' tool.small.path='icons/Wall32.ico'"
  * @generated
  */
 public interface Wall extends Opener {

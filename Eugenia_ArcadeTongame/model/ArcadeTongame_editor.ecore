@@ -19,7 +19,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="Stage">
     <eAnnotations source="gmf.node">
       <details key="label" value="name"/>
-      <details key="size" value="100,100"/>
+      <details key="size" value="90,250"/>
       <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
       <details key="tool.small.path" value="icons/Stage32.ico"/>
     </eAnnotations>
@@ -36,7 +36,9 @@
       <details key="source" value="source"/>
       <details key="target" value="target"/>
       <details key="style" value="dot"/>
-      <details key="width" value="6"/>
+      <details key="width" value="4"/>
+      <details key="color" value="35,35,142"/>
+      <details key="target.decoration" value="arrow"/>
       <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
       <details key="tool.small.path" value="icons/StagesConnection32.ico"/>
     </eAnnotations>
@@ -59,7 +61,8 @@
       <eAnnotations source="gmf.link">
         <details key="target.decoration" value="arrow"/>
         <details key="style" value="solid"/>
-        <details key="width" value="4"/>
+        <details key="width" value="3"/>
+        <details key="color" value="0,100,0"/>
         <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
         <details key="tool.small.path" value="icons/Opens32.ico"/>
       </eAnnotations>
@@ -69,8 +72,7 @@
     <eAnnotations source="gmf.node">
       <details key="figure" value="figures.Wall"/>
       <details key="label.icon" value="false"/>
-      <details key="label" value="name"/>
-      <details key="label.placement" value="external"/>
+      <details key="label.placement" value="none"/>
       <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
       <details key="tool.small.path" value="icons/Wall32.ico"/>
     </eAnnotations>
@@ -79,8 +81,7 @@
     <eAnnotations source="gmf.node">
       <details key="figure" value="figures.Sound"/>
       <details key="label.icon" value="false"/>
-      <details key="label" value="name"/>
-      <details key="label.placement" value="external"/>
+      <details key="label.placement" value="none"/>
       <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
       <details key="tool.small.path" value="icons/Sound32.ico"/>
     </eAnnotations>
@@ -90,8 +91,7 @@
     <eAnnotations source="gmf.node">
       <details key="figure" value="figures.Text"/>
       <details key="label.icon" value="false"/>
-      <details key="label" value="name"/>
-      <details key="label.placement" value="external"/>
+      <details key="label.placement" value="none"/>
       <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
       <details key="tool.small.path" value="icons/Text32.ico"/>
     </eAnnotations>
@@ -101,8 +101,7 @@
     <eAnnotations source="gmf.node">
       <details key="figure" value="figures.In"/>
       <details key="label.icon" value="false"/>
-      <details key="label" value="name"/>
-      <details key="label.placement" value="external"/>
+      <details key="label.placement" value="none"/>
       <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
       <details key="tool.small.path" value="icons/In32.ico"/>
     </eAnnotations>
@@ -112,8 +111,7 @@
     <eAnnotations source="gmf.node">
       <details key="figure" value="figures.Out"/>
       <details key="label.icon" value="false"/>
-      <details key="label" value="name"/>
-      <details key="label.placement" value="external"/>
+      <details key="label.placement" value="none"/>
       <details key="tool.small.bundle" value="Eugenia_ArcadeTongame"/>
       <details key="tool.small.path" value="icons/Out32.ico"/>
     </eAnnotations>

@@ -22,7 +22,6 @@ import org.eclipse.gmf.runtime.draw2d.ui.figures.FigureUtilities;
 import org.eclipse.gmf.runtime.emf.core.util.EMFCoreUtil;
 import org.eclipse.gmf.runtime.emf.type.core.IElementType;
 import org.eclipse.gmf.runtime.emf.type.core.IHintedType;
-import org.eclipse.gmf.runtime.notation.Connector;
 import org.eclipse.gmf.runtime.notation.DecorationNode;
 import org.eclipse.gmf.runtime.notation.Diagram;
 import org.eclipse.gmf.runtime.notation.Edge;
@@ -308,7 +307,7 @@ public class ArcadeTongame_editorViewProvider extends AbstractProvider
 		ViewUtil.setStructuralFeatureValue(node,
 				NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5006 = createLabel(
+		Node label5001 = createLabel(
 				node,
 				ArcadeTongame_editor.diagram.part.ArcadeTongame_editorVisualIDRegistry
 						.getType(ArcadeTongame_editor.diagram.edit.parts.StageNameEditPart.VISUAL_ID));
@@ -359,15 +358,6 @@ public class ArcadeTongame_editorViewProvider extends AbstractProvider
 		ViewUtil.setStructuralFeatureValue(node,
 				NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5001 = createLabel(
-				node,
-				ArcadeTongame_editor.diagram.part.ArcadeTongame_editorVisualIDRegistry
-						.getType(ArcadeTongame_editor.diagram.edit.parts.WallNameEditPart.VISUAL_ID));
-		label5001.setLayoutConstraint(NotationFactory.eINSTANCE
-				.createLocation());
-		Location location5001 = (Location) label5001.getLayoutConstraint();
-		location5001.setX(0);
-		location5001.setY(5);
 		return node;
 	}
 
@@ -410,15 +400,6 @@ public class ArcadeTongame_editorViewProvider extends AbstractProvider
 		ViewUtil.setStructuralFeatureValue(node,
 				NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5002 = createLabel(
-				node,
-				ArcadeTongame_editor.diagram.part.ArcadeTongame_editorVisualIDRegistry
-						.getType(ArcadeTongame_editor.diagram.edit.parts.SoundNameEditPart.VISUAL_ID));
-		label5002.setLayoutConstraint(NotationFactory.eINSTANCE
-				.createLocation());
-		Location location5002 = (Location) label5002.getLayoutConstraint();
-		location5002.setX(0);
-		location5002.setY(5);
 		return node;
 	}
 
@@ -461,15 +442,6 @@ public class ArcadeTongame_editorViewProvider extends AbstractProvider
 		ViewUtil.setStructuralFeatureValue(node,
 				NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5003 = createLabel(
-				node,
-				ArcadeTongame_editor.diagram.part.ArcadeTongame_editorVisualIDRegistry
-						.getType(ArcadeTongame_editor.diagram.edit.parts.TextNameEditPart.VISUAL_ID));
-		label5003.setLayoutConstraint(NotationFactory.eINSTANCE
-				.createLocation());
-		Location location5003 = (Location) label5003.getLayoutConstraint();
-		location5003.setX(0);
-		location5003.setY(5);
 		return node;
 	}
 
@@ -512,15 +484,6 @@ public class ArcadeTongame_editorViewProvider extends AbstractProvider
 		ViewUtil.setStructuralFeatureValue(node,
 				NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5004 = createLabel(
-				node,
-				ArcadeTongame_editor.diagram.part.ArcadeTongame_editorVisualIDRegistry
-						.getType(ArcadeTongame_editor.diagram.edit.parts.InNameEditPart.VISUAL_ID));
-		label5004.setLayoutConstraint(NotationFactory.eINSTANCE
-				.createLocation());
-		Location location5004 = (Location) label5004.getLayoutConstraint();
-		location5004.setX(0);
-		location5004.setY(5);
 		return node;
 	}
 
@@ -563,15 +526,6 @@ public class ArcadeTongame_editorViewProvider extends AbstractProvider
 		ViewUtil.setStructuralFeatureValue(node,
 				NotationPackage.eINSTANCE.getFillStyle_FillColor(),
 				FigureUtilities.RGBToInteger(fillRGB));
-		Node label5005 = createLabel(
-				node,
-				ArcadeTongame_editor.diagram.part.ArcadeTongame_editorVisualIDRegistry
-						.getType(ArcadeTongame_editor.diagram.edit.parts.OutNameEditPart.VISUAL_ID));
-		label5005.setLayoutConstraint(NotationFactory.eINSTANCE
-				.createLocation());
-		Location location5005 = (Location) label5005.getLayoutConstraint();
-		location5005.setX(0);
-		location5005.setY(5);
 		return node;
 	}
 
@@ -581,7 +535,8 @@ public class ArcadeTongame_editorViewProvider extends AbstractProvider
 	public Edge createStagesConnection_4001(EObject domainElement,
 			View containerView, int index, boolean persisted,
 			PreferencesHint preferencesHint) {
-		Connector edge = NotationFactory.eINSTANCE.createConnector();
+		Edge edge = NotationFactory.eINSTANCE.createEdge();
+		edge.getStyles().add(NotationFactory.eINSTANCE.createRoutingStyle());
 		edge.getStyles().add(NotationFactory.eINSTANCE.createFontStyle());
 		RelativeBendpoints bendpoints = NotationFactory.eINSTANCE
 				.createRelativeBendpoints();
@@ -598,12 +553,6 @@ public class ArcadeTongame_editorViewProvider extends AbstractProvider
 		// initializePreferences
 		final IPreferenceStore prefStore = (IPreferenceStore) preferencesHint
 				.getPreferenceStore();
-
-		org.eclipse.swt.graphics.RGB lineRGB = PreferenceConverter.getColor(
-				prefStore, IPreferenceConstants.PREF_LINE_COLOR);
-		ViewUtil.setStructuralFeatureValue(edge,
-				NotationPackage.eINSTANCE.getLineStyle_LineColor(),
-				FigureUtilities.RGBToInteger(lineRGB));
 		FontStyle edgeFontStyle = (FontStyle) edge
 				.getStyle(NotationPackage.Literals.FONT_STYLE);
 		if (edgeFontStyle != null) {
@@ -633,7 +582,8 @@ public class ArcadeTongame_editorViewProvider extends AbstractProvider
 	 */
 	public Edge createOpenerOpens_4002(View containerView, int index,
 			boolean persisted, PreferencesHint preferencesHint) {
-		Connector edge = NotationFactory.eINSTANCE.createConnector();
+		Edge edge = NotationFactory.eINSTANCE.createEdge();
+		edge.getStyles().add(NotationFactory.eINSTANCE.createRoutingStyle());
 		edge.getStyles().add(NotationFactory.eINSTANCE.createFontStyle());
 		RelativeBendpoints bendpoints = NotationFactory.eINSTANCE
 				.createRelativeBendpoints();
@@ -650,12 +600,6 @@ public class ArcadeTongame_editorViewProvider extends AbstractProvider
 		// initializePreferences
 		final IPreferenceStore prefStore = (IPreferenceStore) preferencesHint
 				.getPreferenceStore();
-
-		org.eclipse.swt.graphics.RGB lineRGB = PreferenceConverter.getColor(
-				prefStore, IPreferenceConstants.PREF_LINE_COLOR);
-		ViewUtil.setStructuralFeatureValue(edge,
-				NotationPackage.eINSTANCE.getLineStyle_LineColor(),
-				FigureUtilities.RGBToInteger(lineRGB));
 		FontStyle edgeFontStyle = (FontStyle) edge
 				.getStyle(NotationPackage.Literals.FONT_STYLE);
 		if (edgeFontStyle != null) {

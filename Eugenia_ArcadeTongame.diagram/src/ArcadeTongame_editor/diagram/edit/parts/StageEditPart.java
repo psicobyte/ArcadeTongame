@@ -186,7 +186,7 @@ public class StageEditPart extends ShapeNodeEditPart {
 	 * @generated
 	 */
 	protected NodeFigure createNodePlate() {
-		DefaultSizeNodeFigure result = new DefaultSizeNodeFigure(100, 100);
+		DefaultSizeNodeFigure result = new DefaultSizeNodeFigure(90, 250);
 		return result;
 	}
 
@@ -330,8 +330,8 @@ public class StageEditPart extends ShapeNodeEditPart {
 		public StageFigure() {
 			this.setCornerDimensions(new Dimension(getMapMode().DPtoLP(8),
 					getMapMode().DPtoLP(8)));
-			this.setPreferredSize(new Dimension(getMapMode().DPtoLP(100),
-					getMapMode().DPtoLP(100)));
+			this.setPreferredSize(new Dimension(getMapMode().DPtoLP(90),
+					getMapMode().DPtoLP(250)));
 			this.setBorder(new MarginBorder(getMapMode().DPtoLP(5),
 					getMapMode().DPtoLP(5), getMapMode().DPtoLP(5),
 					getMapMode().DPtoLP(5)));

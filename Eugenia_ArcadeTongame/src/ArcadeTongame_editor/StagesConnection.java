@@ -18,7 +18,7 @@ import org.eclipse.emf.ecore.EObject;
  * </p>
  *
  * @see ArcadeTongame_editor.ArcadeTongame_editorPackage#getStagesConnection()
- * @model annotation="gmf.link source='source' target='target' style='dot' width='6' tool.small.bundle='Eugenia_ArcadeTongame' tool.small.path='icons/StagesConnection32.ico'"
+ * @model annotation="gmf.link source='source' target='target' style='dot' width='4' color='35,35,142' target.decoration='arrow' tool.small.bundle='Eugenia_ArcadeTongame' tool.small.path='icons/StagesConnection32.ico'"
  * @generated
  */
 public interface StagesConnection extends EObject {

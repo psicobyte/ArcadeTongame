@@ -58,7 +58,7 @@ public interface Opener extends Element {
 	 * @return the value of the '<em>Opens</em>' reference.
 	 * @see #setOpens(Out)
 	 * @see ArcadeTongame_editor.ArcadeTongame_editorPackage#getOpener_Opens()
-	 * @model annotation="gmf.link target.decoration='arrow' style='solid' width='4' tool.small.bundle='Eugenia_ArcadeTongame' tool.small.path='icons/Opens32.ico'"
+	 * @model annotation="gmf.link target.decoration='arrow' style='solid' width='3' color='0,100,0' tool.small.bundle='Eugenia_ArcadeTongame' tool.small.path='icons/Opens32.ico'"
 	 * @generated
 	 */
 	Out getOpens();
