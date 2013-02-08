@@ -94,5 +94,29 @@
             contributorClass="ArcadeTongame_editor.presentation.ArcadeTongame_editorActionBarContributor">
       </editor>
    </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="Eugenia_ArcadeTongame.diagram.ArcadeTongame_editorApplication"
+            name="ArcadeTongame_Editor">
+         <property
+               name="appName"
+               value="ArcadeTongame_Editor">
+         </property>
+         <property
+               name="aboutImage"
+               value="platform:/plugin/Eugenia_ArcadeTongame/bin/figures/images/Wall48.png">
+         </property>
+         <property
+               name="aboutText"
+               value="http://chelder86.github.com/ArcadeTongame/">
+         </property>
+         <property
+               name="windowImages"
+               value="platform:/plugin/Eugenia_ArcadeTongame/bin/figures/images/Wall48.png">
+         </property>
+      </product>
+   </extension>
 
 </plugin>
